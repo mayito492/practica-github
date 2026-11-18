@@ -1,6 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1f4068, #162447);
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,14 +9,45 @@ body {
     margin: 0;
 }
 
-.tarjeta {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.contenedor-principal {
+    background-color: #0f3460;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
     text-align: center;
+    border: 2px solid #e94560;
 }
 
 h1 {
-    color: #333333;
+    color: #e94560;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.btn-accion {
+    background-color: #e94560;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-accion:hover {
+    background-color: #ff6b81;
+    transform: scale(1.05);
+}
+
+.estado {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #00d4ff;
 }
